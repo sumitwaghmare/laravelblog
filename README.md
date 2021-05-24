@@ -7,6 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Lesson Learnt
+- Access to user given to home folder to avoid saving issue:  `sudo chown -R ubuntu /home`
+- To start the server, from folder root, try `php artisan serve`
+- Current version is `PHP 8.X`
+- YAML package added afterword.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
